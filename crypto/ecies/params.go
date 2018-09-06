@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/DSiSc/crypto-suite/common/crypto"
+	ethcrypto "github.com/DSiSc/crypto-suite/crypto"
 )
 
 var (

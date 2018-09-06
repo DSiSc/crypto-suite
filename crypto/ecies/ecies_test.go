@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/DSiSc/crypto-suite/common/crypto"
+	"github.com/DSiSc/crypto-suite/crypto"
 )
 
 var dumpEnc bool

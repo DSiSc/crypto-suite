@@ -30,9 +30,9 @@ import (
 
 	"github.com/DSiSc/craft/types"
 	"github.com/DSiSc/crypto-suite/common"
-	"github.com/DSiSc/crypto-suite/common/crypto/sha3"
 	"github.com/DSiSc/crypto-suite/common/math"
 	"github.com/DSiSc/crypto-suite/common/rlp"
+	"github.com/DSiSc/crypto-suite/crypto/sha3"
 	"github.com/DSiSc/crypto-suite/util"
 )
 
