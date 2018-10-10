@@ -10,7 +10,22 @@ package sha3
 
 import (
 	"hash"
+	"github.com/DSiSc/crypto-suite/crypto/sha3/openssl/sm3"
+	"crypto/sha256"
 )
+
+// NewHashByAlgName create hasher by algorithm name
+func NewHashByAlgName(algName string) hash.Hash {
+	switch algName {
+	case "Keccak256":
+			return NewKeccak256()
+	case "Keccak512":
+		return NewKeccak512()
+	case "SM3":
+		return sm3.New()
+	}
+	return sha256.New()
+}
 
 // NewKeccak256 creates a new Keccak-256 hash.
 func NewKeccak256() hash.Hash { return &state{rate: 136, outputLen: 32, dsbyte: 0x01} }
