@@ -9,6 +9,12 @@
 			"revisionTime": "2017-02-10T01:56:32Z"
 		},
 		{
+			"checksumSHA1": "LN1V2pZQwKnoDwcsgXpzG4+Vges=",
+			"path": "golang.org/x/crypto/sha3",
+			"revision": "c126467f60eb25f8f27e5a981f32a87e3965053f",
+			"revisionTime": "2018-07-23T15:26:11Z"
+		},
+		{
 			"checksumSHA1": "REkmyB368pIiip76LiqMLspgCRk=",
 			"path": "golang.org/x/sys/cpu",
 			"revision": "c01370cb5c9b7812800ec97eb5692a14fb8d577c",
